@@ -1,0 +1,41 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+*.env
+.python-version
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local development configuration
+config.local.py
+local_settings.py
+
+# In-memory character store backups (if we add them later)
+characters.json
+*.pickle

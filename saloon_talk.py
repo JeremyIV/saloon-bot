@@ -24,7 +24,8 @@ def to_saloon_talk(username: str, comment: str) -> str:
     Original message: {comment}
     
     Rules:
-    - Keep the response similar in length to the original
+    - KEEP THE RESPONSE SIMILAR IN LENGTH TO THE ORIGINAL.
+    - The transformed message should not be more than 50% longer than the original.
     - Match the character's personality as described
     - Use at most one Western interjection
     - Focus on the message's meaning first, character's style second
